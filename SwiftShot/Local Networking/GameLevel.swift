@@ -10,7 +10,7 @@ import SceneKit
 
 private let levelsPath = "gameassets.scnassets/levels/"
 private let defaultSize = CGSize(width: 1.5, height: 2.7)
-private let defaultLevelName = "gateway"
+private let defaultLevelName = "bridge"
 private let levelStrings = "levels"
 
 class GameLevel {

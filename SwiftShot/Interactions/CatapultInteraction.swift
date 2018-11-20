@@ -46,7 +46,7 @@ class CatapultInteraction: Interaction, GrabInteractionDelegate {
         guard let grabInteraction = grabInteraction else { fatalError("GrabInteraction not set") }
         grabInteraction.addGrabbable(catapult)
         catapults[catapult.catapultID] = catapult
-        setProjectileOnCatapult(catapult, projectileType: .cannonball)
+        setProjectileOnCatapult(catapult, projectileType: .chicken)
     }
     
     private func setProjectileOnCatapult(_ catapult: Catapult, projectileType: ProjectileType) {
