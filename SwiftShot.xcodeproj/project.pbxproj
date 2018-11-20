@@ -72,14 +72,6 @@
 		91D8090420AD01D200861E97 /* CatapultAudioSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D8090320AD01D200861E97 /* CatapultAudioSampler.swift */; };
 		91E5C7EA20AD393E00161B8F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 91E5C7E920AD393E00161B8F /* Sounds */; };
 		91F67F7020BC86010044BC24 /* MusicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F67F6F20BC86010044BC24 /* MusicCoordinator.swift */; };
-		C422F5CD20B5F84600CB0A8D /* iPhone_X_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5BF20B5F84500CB0A8D /* iPhone_X_Landscape.png */; };
-		C422F5CE20B5F84600CB0A8D /* iPhone_X_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5BF20B5F84500CB0A8D /* iPhone_X_Landscape.png */; };
-		C422F5D320B5F84600CB0A8D /* iPhone_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5C220B5F84500CB0A8D /* iPhone_Portrait.png */; };
-		C422F5D420B5F84600CB0A8D /* iPhone_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5C220B5F84500CB0A8D /* iPhone_Portrait.png */; };
-		C422F5D520B5F84600CB0A8D /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5C320B5F84500CB0A8D /* iPad.png */; };
-		C422F5D620B5F84600CB0A8D /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5C320B5F84500CB0A8D /* iPad.png */; };
-		C422F5D720B5F84600CB0A8D /* iPhone_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5C420B5F84500CB0A8D /* iPhone_Landscape.png */; };
-		C422F5D820B5F84600CB0A8D /* iPhone_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C422F5C420B5F84500CB0A8D /* iPhone_Landscape.png */; };
 		C43D1349209276D500A2C195 /* SFXCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D1348209276D500A2C195 /* SFXCoordinator.swift */; };
 		C460440920B8EAC000AD4622 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C460440820B8EAC000AD4622 /* UIView+Helpers.swift */; };
 		C4E0A1A9208AA698009B8A1E /* HapticsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0A1A8208AA698009B8A1E /* HapticsGenerator.swift */; };
@@ -199,10 +191,6 @@
 		91D8090320AD01D200861E97 /* CatapultAudioSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatapultAudioSampler.swift; sourceTree = "<group>"; };
 		91E5C7E920AD393E00161B8F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		91F67F6F20BC86010044BC24 /* MusicCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCoordinator.swift; sourceTree = "<group>"; };
-		C422F5BF20B5F84500CB0A8D /* iPhone_X_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_X_Landscape.png; sourceTree = "<group>"; };
-		C422F5C220B5F84500CB0A8D /* iPhone_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Portrait.png; sourceTree = "<group>"; };
-		C422F5C320B5F84500CB0A8D /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
-		C422F5C420B5F84500CB0A8D /* iPhone_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Landscape.png; sourceTree = "<group>"; };
 		C43D1348209276D500A2C195 /* SFXCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFXCoordinator.swift; sourceTree = "<group>"; };
 		C460440820B8EAC000AD4622 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
 		C4E0A1A8208AA698009B8A1E /* HapticsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsGenerator.swift; sourceTree = "<group>"; };
@@ -427,10 +415,6 @@
 		C422F5BC20B5F82F00CB0A8D /* Launch Screens */ = {
 			isa = PBXGroup;
 			children = (
-				C422F5C320B5F84500CB0A8D /* iPad.png */,
-				C422F5C420B5F84500CB0A8D /* iPhone_Landscape.png */,
-				C422F5C220B5F84500CB0A8D /* iPhone_Portrait.png */,
-				C422F5BF20B5F84500CB0A8D /* iPhone_X_Landscape.png */,
 			);
 			path = "Launch Screens";
 			sourceTree = "<group>";
@@ -671,11 +655,7 @@
 				91E5C7EA20AD393E00161B8F /* Sounds in Resources */,
 				1C3F0F9E20853FFE00A468E1 /* gameassets.scnassets in Resources */,
 				D087648320AF4CD400262D06 /* Assets.xcassets in Resources */,
-				C422F5D320B5F84600CB0A8D /* iPhone_Portrait.png in Resources */,
 				D0066D422057259600A7E863 /* LaunchScreen.storyboard in Resources */,
-				C422F5D520B5F84600CB0A8D /* iPad.png in Resources */,
-				C422F5CD20B5F84600CB0A8D /* iPhone_X_Landscape.png in Resources */,
-				C422F5D720B5F84600CB0A8D /* iPhone_Landscape.png in Resources */,
 				D0066D3D2057259500A7E863 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,12 +666,8 @@
 			files = (
 				FD4E4BA420AA284500AE8296 /* gameassets.scnassets in Resources */,
 				FD4E4BA520AA284500AE8296 /* LaunchScreen.storyboard in Resources */,
-				C422F5D820B5F84600CB0A8D /* iPhone_Landscape.png in Resources */,
 				FD4E4BA820AA284500AE8296 /* Main.storyboard in Resources */,
-				C422F5D620B5F84600CB0A8D /* iPad.png in Resources */,
-				C422F5D420B5F84600CB0A8D /* iPhone_Portrait.png in Resources */,
 				D02676EA20B53801004C7344 /* Assets.xcassets in Resources */,
-				C422F5CE20B5F84600CB0A8D /* iPhone_X_Landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
