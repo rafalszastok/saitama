@@ -816,7 +816,7 @@ class Catapult: GameObject, Grabbable {
             slingComponent.setGrabMode(state: false)
         }
         
-        base.physicsBody?.isAffectedByGravity = true
+        base.physicsBody?.isAffectedByGravity = false
     }
     
     // MARK: - Hit By Object
