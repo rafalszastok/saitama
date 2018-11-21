@@ -303,10 +303,18 @@ class Catapult: GameObject, Grabbable {
         node.physicsBody?.resetTransform()
         
         guard let baseGeomNode = node.childNode(withName: "catapultBase", recursively: true) else { fatalError("No catapultBase") }
+        guard let prongGeomNode = node.childNode(withName: "catapultProngs", recursively: true) else { fatalError("No catapultProngs") }
+        
+        // shift center of mass of the prong from the bottom
+        // the 0.55 value is from experimentation
+        let prongPivotShiftUp = float3(0.0, 0.55, 0.0)
+        prongGeomNode.simdPivot = float4x4(translation: prongPivotShiftUp)
+        prongGeomNode.simdPosition += prongPivotShiftUp
         
         let baseShape = SCNPhysicsShape(node: baseGeomNode, options: [.type: SCNPhysicsShape.ShapeType.convexHull])
+        let prongShape = SCNPhysicsShape(node: prongGeomNode, options: [.type: SCNPhysicsShape.ShapeType.convexHull])
         let identityMatrix = SCNMatrix4Identity as NSValue
-        let compoundShape = SCNPhysicsShape(shapes: [baseShape], transforms: [identityMatrix, identityMatrix])
+        let compoundShape = SCNPhysicsShape(shapes: [baseShape, prongShape], transforms: [identityMatrix, identityMatrix])
         node.physicsBody?.physicsShape = compoundShape
 
         // rename back to placeholder name must happen after gameObject is assigned
