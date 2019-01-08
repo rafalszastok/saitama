@@ -1,0 +1,11 @@
+## JIRA
+<!--- Enter a short desctiption about the changes you made -->
+[JIRA link](https://livesport.atlassian.net/browse/BP-)
+
+## Checklist
+- [ ] I have added or updated Unit Tests
+- [ ] I have added or updated Gherkin Tests
+- [ ] I have added or updated Snapshot Tests
+- [ ] I have added or updated UI Release Tests
+
+## Other information
