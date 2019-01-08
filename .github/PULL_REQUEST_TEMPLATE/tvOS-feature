@@ -1,0 +1,18 @@
+## JIRA
+[JIRA BP](https://livesport.atlassian.net/browse/BP-)
+
+## PR Type
+<!--- What kind of change does this PR introduce? -->
+- [ ] Feature
+- [ ] Technical task (refactoring, no functional changes, no api changes)
+
+## Checklist
+
+- [ ] I have added or updated Unit Tests
+- [ ] I have added or updated Gherkin Tests
+- [ ] I have added or updated Snapshot Tests
+- [ ] I have added or updated UI Release Tests
+- [ ] I have run all tests locally
+
+## Other information
+
